@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: notion-mcp-server
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python notion_renderserver.py
+    envVars:
+      - key: NOTION_TOKEN
+        sync: false
