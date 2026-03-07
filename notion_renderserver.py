@@ -70,4 +70,4 @@ async def append_to_page(page_id: str, text: str) -> str:
     return f"已追加内容到页面 {page_id}"
 
 if __name__ == "__main__":
-    mcp.run(transport="sse")
+    mcp.run(transport="streamable-http")
