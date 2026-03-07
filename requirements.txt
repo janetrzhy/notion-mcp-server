@@ -1,0 +1,3 @@
+mcp[cli]
+notion-client
+uvicorn
